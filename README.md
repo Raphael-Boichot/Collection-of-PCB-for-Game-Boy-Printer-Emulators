@@ -21,8 +21,7 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 If you use [the project with the SD card](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer), LED will flash when SD card is accessed as it is connected to CLK. It must be used with a **GBC compatible link cable**. GBA only purple cables are not pinout compatible with the proposed socket. The "Analog in" rows of pins can be let without pin header, it is never used here.
 
 ## Game Boy Printer Emulator PCB for the RP2040 Zero
-RP2040 compatible PCB to connec cleanly this project to the Game Boy Printer serial cable:
-- [The Pico GB Printer](https://github.com/untoxa/pico-gb-printer)
+RP2040 compatible PCB to connect cleanly [the Pico GB Printer](https://github.com/untoxa/pico-gb-printer) to the Game Boy Printer serial cable:
 
 ![](PCB%20for%20RP2040%20Zero/PCB.png)
 
