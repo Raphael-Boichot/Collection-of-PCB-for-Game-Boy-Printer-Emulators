@@ -9,7 +9,7 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 - [The Arduino SD Game Boy Printer](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer)
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
 
-![](PCB%20for%20Arduino/PCB.png)
+![](PCB%20for%20Arduino%20Uno/PCB.png)
 
 **Parts needed:** 
 - An [Arduino Uno](https://fr.aliexpress.com/item/1005006088733150.html), the cheaper the better;
