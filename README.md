@@ -1,5 +1,5 @@
 # Game Boy Printer Emulator PCB for the Arduino
-  Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer using serial cable: 
+Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer using serial cable: 
 - [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
 - [The GBCamera Android Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
 - [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
@@ -17,3 +17,8 @@
 - A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness).
 
 If you use [the project with the SD card](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer), LED will flash when SD card is accessed as it is connected to CLK. It must be used with a **GBC compatible link cable**. GBA only purple cables are not pinout compatible with the proposed socket. The "Analog in" rows of pins can be let without pin header, it is never used here.
+
+# Game Boy Printer Emulator PCB for the RP2040 Zero
+RP2040 compatible PCB to connec cleanly this project to the Game Boy Printer serial cable:
+- [The Pico GB Printer](https://github.com/untoxa/pico-gb-printer)
+- ![](PCB/PCB.png)
