@@ -8,7 +8,7 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 - [The Arduino SD Game Boy Printer](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer)
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
 
-![](PCB/PCB.png)
+![](PCB%20for%20Arduino/PCB.png)
 
 **Parts needed:** 
 - An [Arduino Uno](https://fr.aliexpress.com/item/1005006088733150.html), the cheaper the better;
@@ -23,4 +23,11 @@ If you use [the project with the SD card](https://github.com/Raphael-Boichot/The
 ## Game Boy Printer Emulator PCB for the RP2040 Zero
 RP2040 compatible PCB to connec cleanly this project to the Game Boy Printer serial cable:
 - [The Pico GB Printer](https://github.com/untoxa/pico-gb-printer)
-- ![](PCB/PCB.png)
+
+- ![](PCB%20for%20RP2040%20Zero/PCB.png)
+
+**Parts needed:** 
+- An [RP2040 Zero](https://fr.aliexpress.com/item/1005003504006451.html), with header;
+- Some [GBA/GBC link plugs](https://fr.aliexpress.com/item/1005006358075502.html). Spare GBA link plugs are common while GB/GBC ones are impossible to source, both are pinout compatible for this application;
+- The custom PCB, any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/), it's cheap and custom clean for Eu citizens contrary to PCBWay or OSHPark;
+- A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 100 Ohms (low value = high brighness).
