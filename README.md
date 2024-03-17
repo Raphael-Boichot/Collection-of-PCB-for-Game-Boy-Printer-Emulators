@@ -9,7 +9,7 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 - [The Arduino SD Game Boy Printer](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer)
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
 
-![](PCB%20for%20Arduino%20Uno/PCB.png)
+![](PCB_Arduino_Uno/PCB.png)
 
 **Parts needed:** 
 - An [Arduino Uno](https://fr.aliexpress.com/item/1005006088733150.html), the cheaper the better;
@@ -28,7 +28,7 @@ Arduino Nano compatible PCB to connect cleanly different projects around the Gam
 - [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
 
-![](PCB%20for%20Arduino%20Nano/PCB.png)
+![](PCB_Arduino_Nano/PCB.png)
 
 **Parts needed:** 
 - An [Arduino Nano](https://fr.aliexpress.com/item/1005006053215107.html), the cheaper the better;
@@ -40,7 +40,7 @@ Arduino Nano compatible PCB to connect cleanly different projects around the Gam
 ## Game Boy Printer Emulator PCB for the RP2040 Zero
 RP2040 compatible PCB to connect cleanly [the Pico GB Printer](https://github.com/untoxa/pico-gb-printer) to the Game Boy Printer serial cable:
 
-![](PCB%20for%20RP2040%20Zero/PCB.png)
+![](PCB_RP2040_Zero/PCB.png)
 
 **Parts needed:** 
 - An [RP2040 Zero](https://fr.aliexpress.com/item/1005003504006451.html), **with pin header** (or add some);
