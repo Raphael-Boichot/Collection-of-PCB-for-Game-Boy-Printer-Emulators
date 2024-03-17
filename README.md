@@ -24,7 +24,7 @@ If you use [the project with the SD card](https://github.com/Raphael-Boichot/The
 RP2040 compatible PCB to connec cleanly this project to the Game Boy Printer serial cable:
 - [The Pico GB Printer](https://github.com/untoxa/pico-gb-printer)
 
-- ![](PCB%20for%20RP2040%20Zero/PCB.png)
+![](PCB%20for%20RP2040%20Zero/PCB.png)
 
 **Parts needed:** 
 - An [RP2040 Zero](https://fr.aliexpress.com/item/1005003504006451.html), with header;
