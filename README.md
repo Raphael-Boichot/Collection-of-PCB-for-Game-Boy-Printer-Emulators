@@ -1,4 +1,4 @@
-# Various PCB for using with Game Boy Printer emulators
+# PCBs for using with various Game Boy Printer emulators
 PCB designs and schematics can be edited with [EasyEDA Standard Edition](https://easyeda.com).
 
 ## Game Boy Printer Emulator PCB for the Arduino
