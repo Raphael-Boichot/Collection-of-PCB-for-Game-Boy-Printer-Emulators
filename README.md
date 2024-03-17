@@ -1,9 +1,9 @@
 # Game Boy Printer Emulator PCB for Arduino
 PCB to connect cleanly different projects around the Game Boy Printer to an Arduino Uno : 
-- [https://github.com/mofosyne/arduino-gameboy-printer-emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
-- [https://github.com/Mraulio/GBCamera-Android-Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
-- [https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
-- [https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
+- [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
+- [The GBCamera Android Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
+- [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
+- [The Arduino SD Game Boy Printer](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer)
 
 ![](PCB/PCB.png)
 
