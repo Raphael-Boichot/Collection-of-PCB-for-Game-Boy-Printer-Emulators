@@ -1,4 +1,4 @@
-# Various PCB for playinh with Game Boy Printer emulators !
+# Various PCB for using with Game Boy Printer emulators
 
 ## Game Boy Printer Emulator PCB for the Arduino
 Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer using serial cable: 
