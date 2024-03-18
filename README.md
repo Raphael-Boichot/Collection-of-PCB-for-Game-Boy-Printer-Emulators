@@ -1,5 +1,5 @@
 # PCBs for various Game Boy Printer emulator projects
-PCB designs can be edited with [EasyEDA Standard Edition](https://easyeda.com). Schematics follows the associated projects.
+PCB designs can be edited with [EasyEDA Standard Edition](https://easyeda.com). Schematics follows the associated projects. All these boards must be used with a **GBC compatible link cable**. GBA only purple cables are not pinout compatible with the proposed socket. 
 
 ## Game Boy Printer Emulator PCB for the Arduino Uno
 Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer using serial cable: 
@@ -19,7 +19,7 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 - The [custom PCB](/PCB_Arduino_Uno), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/), it's cheap and custom clean for Eu citizens contrary to PCBWay or OSHPark;
 - A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness).
 
-If you use [the project with the SD card](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer), LED will flash when SD card is accessed as it is connected to CLK. It must be used with a **GBC compatible link cable**. GBA only purple cables are not pinout compatible with the proposed socket. The "Analog in" rows of pins can be let without pin header, it is never used here.
+If you use [the project with the SD card](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer), LED will flash when SD card is accessed as it is connected to CLK. The "Analog in" rows of pins can be let without pin header if you want to spare some, it is never used here.
 
 ## Game Boy Printer Emulator PCB for the Arduino Nano
 Arduino Nano compatible PCB to connect cleanly different projects around the Game Boy Printer using serial cable: 
