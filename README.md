@@ -19,6 +19,12 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 - The [custom PCB](/PCB_Arduino_Uno), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/), it's cheap and custom clean for Eu citizens contrary to PCBWay or OSHPark;
 - A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness).
 
+### For Game Boy Printer emulator and and PC to printer direct interface, without SD shield
+![](/PCB_Arduino_Uno/Arduino_shield.jpg)
+
+### For SD printer, with SD shield
+![](/PCB_Arduino_Uno/Arduino_Shield_with_SD.jpg)
+
 If you use [SD card based project](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer), LED will flash when SD card is accessed as it is connected to CLK. For non SD based projects, just left the SD stuff unpopulated. The "Analog in" rows of pins can also be let without pin header if you want to spare some, it is never used here.
 
 ## Game Boy Printer Emulator PCB for the Arduino Nano
