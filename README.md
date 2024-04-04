@@ -45,6 +45,8 @@ Arduino Nano compatible PCB to connect cleanly different projects around the Gam
 - The [custom PCB](/PCB_Arduino_Nano), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
 - A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness).
 
+![](PCB_Arduino_Nano/Nano_shield.jpg)
+
 ## Game Boy Printer Emulator PCB for the Waveshare RP2040 Zero
 RP2040 compatible PCB to connect cleanly:
 - [the Pico GB Printer](https://github.com/untoxa/pico-gb-printer) 
@@ -66,3 +68,5 @@ RP2040 compatible PCB to connect cleanly:
 For support with the **pico-gb-printer**, you have to activate the external LED and the "paper tearing" functions. LED is indeed routed by default to GPIO25 which is the internal one (if any...) and "paper tearing" is routed by default to GPIO23 which is not reachable on a regular board... Well, not my design after all, just here to help...
 
 For support with the regular **Arduino based emulators**, just use the Arduino IDE, uncomment [these lines](https://github.com/Raphael-Boichot/arduino-gameboy-printer-emulator/blob/da4797fcdd360d7ac313cb2e216ee606cabefdcb/GameBoyPrinterEmulator/GameBoyPrinterEmulator.ino#L90) and compile code with the [Earle PhilHower rp2040 core](https://github.com/earlephilhower/arduino-pico) and the Waveshare RP2040 target.
+
+![](PCB_RP2040_Zero/Pi_zer_shield.jpg)
