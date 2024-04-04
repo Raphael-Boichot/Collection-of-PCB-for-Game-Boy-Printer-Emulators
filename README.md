@@ -45,8 +45,13 @@ Arduino Nano compatible PCB to connect cleanly different projects around the Gam
 - The [custom PCB](/PCB_Arduino_Nano), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
 - A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness).
 
-## Game Boy Printer Emulator PCB for the RP2040 Zero
-RP2040 compatible PCB to connect cleanly [the Pico GB Printer](https://github.com/untoxa/pico-gb-printer) to the Game Boy Printer serial cable:
+## Game Boy Printer Emulator PCB for the Waveshare RP2040 Zero
+RP2040 compatible PCB to connect cleanly:
+- [the Pico GB Printer](https://github.com/untoxa/pico-gb-printer) 
+- [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
+- [The GBCamera Android Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
+- [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
+- [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
 
 ![](PCB_RP2040_Zero/PCB.png)
 
@@ -58,4 +63,6 @@ RP2040 compatible PCB to connect cleanly [the Pico GB Printer](https://github.co
 - A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 100 Ohms (low value = high brighness).
 - A [6x6 push button](https://fr.aliexpress.com/item/1005003938244847.html)  whatever height, that can be harvested on any dead electronic suff so it is common.
 
-For this particular project you will have to recompile the source code of the pico-gb-printer to activate the external LED and the "paper tearing" functions. LED is indeed routed by default to GPIO25 which is the internal one (if any...) and "paper tearing" is routed by default to GPIO23 which is not reachable on a regular board... Well, not my design after all, just here to help...
+For support with the **pico-gb-printer**, you have to activate the external LED and the "paper tearing" functions. LED is indeed routed by default to GPIO25 which is the internal one (if any...) and "paper tearing" is routed by default to GPIO23 which is not reachable on a regular board... Well, not my design after all, just here to help...
+
+For support with the regular **Arduino based emulators**, just use the Arduino IDE, uncomment [these lines](https://github.com/Raphael-Boichot/arduino-gameboy-printer-emulator/blob/da4797fcdd360d7ac313cb2e216ee606cabefdcb/GameBoyPrinterEmulator/GameBoyPrinterEmulator.ino#L90) and compile code with the [Earle PhilHower rp2040 core](https://github.com/earlephilhower/arduino-pico) and the Waveshare RP2040 target.
