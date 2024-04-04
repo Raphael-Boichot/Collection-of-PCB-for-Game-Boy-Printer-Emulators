@@ -69,4 +69,4 @@ For support with the **pico-gb-printer**, you have to activate the external LED 
 
 For support with the regular **Arduino based emulators**, just use the Arduino IDE, uncomment [these lines](https://github.com/Raphael-Boichot/arduino-gameboy-printer-emulator/blob/da4797fcdd360d7ac313cb2e216ee606cabefdcb/GameBoyPrinterEmulator/GameBoyPrinterEmulator.ino#L90) and compile code with the [Earle PhilHower rp2040 core](https://github.com/earlephilhower/arduino-pico) and the Waveshare RP2040 target.
 
-![](PCB_RP2040_Zero/Pi_zer_shield.jpg)
+![](/PCB_RP2040_Zero/Pi_Zero_shield.jpg)
