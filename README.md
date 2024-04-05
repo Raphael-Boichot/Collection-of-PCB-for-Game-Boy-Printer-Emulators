@@ -4,7 +4,7 @@ PCB designs can be edited with [EasyEDA Standard Edition](https://easyeda.com). 
 Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid additional prohibitive taxes with customs (taxes paid at order). I've never had a quality problem with them, unlike other well-known manufacturers whose printed circuit boards were of fairly average quality, with the added bonus of a gift from customs.
 
 ## Game Boy Printer Emulator PCB for the Arduino Uno
-Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer using serial cable: 
+Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer: 
 - [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
 - [The GBCamera Android Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
 - [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
@@ -27,14 +27,14 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 ### For SD printer, with micro SD shield adapter
 ![](/PCB_Arduino_Uno/Arduino_Shield_with_SD.jpg)
 
-If you use [SD card based project](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer), LED will flash when SD card is accessed as it is connected to CLK. For non SD based projects, just left the SD stuff unpopulated. The "Analog in" rows of pins can also be let without pin header if you want to spare some, it is never used here.
+If you use [SD card based project](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer), LED will flash when SD card is accessed as it is connected to CLK. For non SD based projects, just left the SD stuff unpopulated. The "Analog in" rows of pins can also be let without pin header if you want to spare some, it is never used here. The Arduino Uno is overall the most reliable device for playing with the Game Boy/Game Boy Printer.
 
 ## Game Boy Printer Emulator PCB for the Arduino Nano
-Arduino Nano compatible PCB to connect cleanly different projects around the Game Boy Printer using serial cable: 
+Arduino Nano compatible PCB to connect cleanly different projects around the Game Boy Printer: 
 - [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
 
-Due to I/O lines impedence, the Arduino Nano is however not able to serve as interface for the Game Boy Printer, so it can only be used as Game Boy Printer emulator.
+Due to I/O lines impedence, the Arduino Nano is however not a reliable interface to drive the Game Boy Printer (it may work or not without any pattern, maybe you'll be lucky), so it can be used as Game Boy Printer emulator only. If you intend to use both the Game Boy Printer emulator and the printer interface features (see Uno shield section), prefer the Arduino Uno which is 100% reliable in both uses.
 
 ![](PCB_Arduino_Nano/PCB.png)
 
