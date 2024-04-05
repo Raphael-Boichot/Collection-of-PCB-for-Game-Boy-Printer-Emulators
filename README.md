@@ -34,7 +34,7 @@ Arduino Nano compatible PCB to connect cleanly different projects around the Gam
 - [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
 
-Due to I/O lines impedence, the Arduino Nano is however not a reliable interface to drive the Game Boy Printer (it may work or not without any pattern, maybe you'll be lucky), so it can be used as Game Boy Printer emulator only. If you intend to use both the Game Boy Printer emulator and the printer interface features (see Uno shield section), prefer the Arduino Uno which is 100% reliable in both uses.
+Due to I/O lines impedence (or some other quirk on my Nano board), the Arduino Nano was however not a reliable interface to drive the Game Boy Printer on my side (it works or not without any pattern, maybe you'll be luckier than me), so it may be used for the **Game Boy Printer emulator only**. If you intend to use both the Game Boy Printer emulator and the printer interface features (see Uno shield section), prefer the Arduino Uno which is 100% reliable on my side.
 
 Despite this minor limitation, the Arduino Nano is particularly fancy and flashy as Game Boy Printer emulator.
 
