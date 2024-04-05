@@ -32,9 +32,9 @@ If you use [SD card based project](https://github.com/Raphael-Boichot/The-Arduin
 ## Game Boy Printer Emulator PCB for the Arduino Nano
 Arduino Nano compatible PCB to connect cleanly different projects around the Game Boy Printer using serial cable: 
 - [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
-- [The GBCamera Android Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
-- [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
+
+Due to I/O lines impedence, the Arduino Nano is however not able to serve as interface for the Game Boy Printer, so it can only be used as Game Boy Printer emulator.
 
 ![](PCB_Arduino_Nano/PCB.png)
 
@@ -50,10 +50,6 @@ Arduino Nano compatible PCB to connect cleanly different projects around the Gam
 ## Game Boy Printer Emulator PCB for the Waveshare RP2040 Zero
 RP2040 compatible PCB to connect cleanly:
 - [the Pico GB Printer](https://github.com/untoxa/pico-gb-printer) 
-- [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
-- [The GBCamera Android Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
-- [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
-- [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
 
 ![](PCB_RP2040_Zero/PCB.png)
 
@@ -66,7 +62,5 @@ RP2040 compatible PCB to connect cleanly:
 - A [6x6 push button](https://fr.aliexpress.com/item/1005003938244847.html)  whatever height, that can be harvested on any dead electronic suff so it is common.
 
 For support with the **pico-gb-printer**, you have to activate the external LED and the "paper tearing" functions. LED is indeed routed by default to GPIO25 which is the internal one (if any...) and "paper tearing" is routed by default to GPIO23 which is not reachable on a regular board... Well, not my design after all, just here to help...
-
-For support with the regular **Arduino based emulators**, just use the Arduino IDE, uncomment [these lines](https://github.com/Raphael-Boichot/arduino-gameboy-printer-emulator/blob/da4797fcdd360d7ac313cb2e216ee606cabefdcb/GameBoyPrinterEmulator/GameBoyPrinterEmulator.ino#L90) and compile code with the [Earle PhilHower rp2040 core](https://github.com/earlephilhower/arduino-pico) and the Waveshare RP2040 target.
 
 ![](/PCB_RP2040_Zero/Pi_Zero_shield.jpg)
