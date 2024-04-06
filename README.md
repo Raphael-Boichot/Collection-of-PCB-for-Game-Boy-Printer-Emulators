@@ -3,7 +3,7 @@ PCB designs can be edited with [EasyEDA Standard Edition](https://easyeda.com). 
 
 Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid additional prohibitive taxes with customs (taxes paid at order). I've never had a quality problem with them, unlike other well-known manufacturers whose printed circuit boards were sometimes of fairly average quality, with the added bonus of a gift from customs.
 
-You can modify, copy or sell these PCB bare or populated, I don't care. Just cite me as author.
+You can modify, copy or sell these PCB bare or populated, I don't care, I have a decent enough salary. Just cite me as author.
 
 ## Game Boy Printer Emulator PCB for the Arduino Uno
 Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer: 
