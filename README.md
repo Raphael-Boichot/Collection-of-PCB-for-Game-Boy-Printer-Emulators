@@ -1,7 +1,9 @@
 # PCBs for various Game Boy Printer emulator projects
-PCB designs can be edited with [EasyEDA Standard Edition](https://easyeda.com). Schematics follows the associated projects. All these boards must be used with a **GBC compatible link cable**. GBA only purple cables are not pinout compatible with the proposed socket. 
+PCB designs can be edited with [EasyEDA Standard Edition](https://easyeda.com). Schematics follows the associated projects, so refer to them and to the PCB source files to get the pinout. All these boards must be used with a **GB/GBC compatible link cable**. GBA only purple cables are **not pinout compatible** with the proposed socket (even if they fit as the only sockets available online in 2024 are the GBA compatible version). These boards have been tested with GB/GBA/GBC/GB Boy Colour (as long as the cable is GB/GBC compatible).
 
-Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid additional prohibitive taxes with customs (taxes paid at order). I've never had a quality problem with them, unlike other well-known manufacturers whose printed circuit boards were of fairly average quality, with the added bonus of a gift from customs.
+Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid additional prohibitive taxes with customs (taxes paid at order). I've never had a quality problem with them, unlike other well-known manufacturers whose printed circuit boards were sometimes of fairly average quality, with the added bonus of a gift from customs.
+
+You can modify, copy or sell these PCB bare or populated, I don't care. Just cite me as author.
 
 ## Game Boy Printer Emulator PCB for the Arduino Uno
 Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer: 
