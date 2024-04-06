@@ -43,9 +43,11 @@ I must admit that the Arduino Nano is particularly fancy as Game Boy Printer emu
 **Parts needed:** 
 - An [Arduino Nano](https://fr.aliexpress.com/item/1005006053215107.html), the cheaper the better;
 - Some [GBA/GBC link plugs](https://fr.aliexpress.com/item/1005006358075502.html). Spare GBA link plugs are common while GB/GBC ones are impossible to source, both are pinout compatible for this application;
-- Some [regular male pin headers](https://fr.aliexpress.com/item/1005002577212594.html). Must be soldered below the PCB as the clearance with the Uno shield is tight;
+- Some [regular male pin headers](https://fr.aliexpress.com/item/1005002577212594.html);
 - The [custom PCB](/PCB_Arduino_Nano), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
 - A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness).
+
+It is advised to trim the pins as short as possible on the back side in order to get a clean finish.
 
 ![](PCB_Arduino_Nano/Nano_shield.jpg)
 
@@ -62,6 +64,8 @@ RP2040 compatible PCB to connect cleanly:
 - The [custom PCB](/PCB_RP2040_Zero), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
 - A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 100 Ohms (low value = high brighness).
 - A [6x6 push button](https://fr.aliexpress.com/item/1005003938244847.html)  whatever height, that can be harvested on any dead electronic suff so it is common.
+
+It is advised to trim the pins as short as possible on the back side in order to get a clean finish.
 
 For full support with the **pico-gb-printer**, you have to recompile the code to activate the external LED and the "paper tearing" functions. LED is indeed routed by default to GPIO25 which is the internal one (if any...) and "paper tearing" is routed by default to GPIO23 which is not reachable on a regular board. The device works anyway with the default build, tearing paper button and LED are just optional (and installing the Pico SDK was a real hassle on my side).
 
