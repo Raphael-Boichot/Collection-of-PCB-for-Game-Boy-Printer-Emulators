@@ -83,4 +83,4 @@ For full support with the **pico-gb-printer**, you have to recompile the code to
 **Sidenote:**
 This board id also partly compatible with the Arduino based projects if you compile them with the [Earle Philhower RP2040 core](https://github.com/earlephilhower/arduino-pico) installed on Arduino IDE. Just route LED to pin D8 instead of D13 and GBP_SO_PIN to D0 instead of D4. However, the serial output format is not exactly the same (not sure why, apparently just a CR+LF issue) and the code probably needs a bit of rewrite to be directly compatible with the various image decoders. Anyway, I won't make any further attempt but it looks possible to use this board with other Game Boy Printer emulators without too much effort.
 
-The Waveshare RP2040 Zero is equipped with a fancy WS2812 as internal LED which is not driven in the project linked here, sadly. It's up to you to code a basic controller for it.
+The Waveshare RP2040 Zero is equipped with a fancy WS2812 as internal LED which is not driven in the project linked here, sadly. It's up to you to code a basic controller for it (like in the picture above).
