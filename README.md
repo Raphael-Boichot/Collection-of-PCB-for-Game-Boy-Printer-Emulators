@@ -6,6 +6,7 @@ Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid 
 You can modify and copy the source files or sell these PCBs bare or populated if you want. I'm not the kind of bum swarming into the retro community begging for pennies. Plagiarism will be reward enough. Considering that you yet have very basic soldering hardware (and skill), each populated PCB should cost you about 10€. You will save a multimeter as it will work first try.
 
 ![](/All_PCBs.jpg)
+(yes, it is very fancy in blue)
 
 ## Game Boy Printer Emulator PCB for the Arduino Uno
 Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer: 
