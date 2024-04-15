@@ -5,6 +5,8 @@ Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid 
 
 You can modify and copy the source files or sell these PCBs bare or populated if you want. I'm not the kind of bum swarming into the retro community begging for pennies. Plagiarism will be reward enough.
 
+![](/All_PCBs.jpg)
+
 ## Game Boy Printer Emulator PCB for the Arduino Uno
 Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer: 
 - [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
