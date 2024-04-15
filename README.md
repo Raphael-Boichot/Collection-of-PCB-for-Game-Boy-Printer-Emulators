@@ -1,9 +1,13 @@
 # PCBs for various Game Boy Printer emulator projects
-PCB designs can be edited with [EasyEDA Standard Edition](https://easyeda.com). Schematics follows the associated projects, so refer to them and to the PCB source files to get the pinout. All these boards must be used with a **GB/GBC compatible link cable**. **GBA only (purple cables) are not pinout compatible** with the proposed socket (even if they fit as the only sockets available online in 2024 are the GBA compatible version). These boards have been tested with GB/GBA/GBC/GB Boy Colour (as long as the cable is GB/GBC compatible).
 
-Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid additional prohibitive taxes with customs (taxes paid at order). I've never had a quality problem with them, unlike other well-known manufacturers whose printed circuit boards were sometimes of fairly average quality, with the added bonus of a "gift" from customs when getting the parcel.
+## Why ?
+Because 99.9% of the non success when building a Game Boy Printer emulator based on Arduino or Pi Pico is just inversion between SIN and SOUT, because cutting original cables is a shame, because cutting Aliexpress cables anyway requires a multimeter as you cannot trust any wire color (and ends as more or less janky designs depending on your soldering skill), here are PCBs cheap and easy to populate that avoid all these hassles.
 
-You can modify and copy the source files or sell these PCBs bare or populated if you want. I'm not the kind of bum swarming into the retro community begging for pennies. Plagiarism will be reward enough. Considering that you yet have very basic soldering hardware (and skill), each populated PCB should cost you about 10€. You will save a multimeter as it will work first try.
+PCB designs can be edited with [EasyEDA Standard Edition](https://easyeda.com). Schematics follows the associated projects, so refer to them and to the PCB source files to get the pinout. All these boards must be used with a **GB/GBC compatible link cable**. **GBA only (purple cables) are not pinout compatible** with the proposed socket (even if they fit as the only sockets available online in 2024 are the GBA compatible version). These boards have been tested IRL with GB/GBA/GBC/GB Boy Colour (as long as the cable is GB/GBC compatible).
+
+Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid additional prohibitive taxes with customs (taxes paid at order). I've never had any quality issue with them. Just drop the gerber to their site and order with default parameters (the cheapest by default). Considering that you yet have very basic soldering hardware (and skill), each populated PCB should cost you about 10€. You will save a multimeter too as it will work first try.
+
+You can modify and copy the source files or sell these PCBs bare or populated if you want. I'm not the kind of bum swarming into the retro community begging for pennies. Plagiarism will be my reward. 
 
 ![](/All_PCBs.jpg)
 (yes, it is very fancy in blue)
@@ -63,7 +67,7 @@ RP2040 compatible PCB to connect cleanly:
 ![](PCB_RP2040_Zero/PCB.png)
 
 **Parts needed:** 
-- An [RP2040 Zero](https://fr.aliexpress.com/item/1005003504006451.html), **with pin header** (or add some);
+- An [Waveshare RP2040 Zero (or copy)](https://fr.aliexpress.com/item/1005003504006451.html), **with pin header** (or add some);
 - Some [GBA/GBC serial sockets](https://fr.aliexpress.com/item/1005006358075502.html). Spare GBA link plugs are common while GB/GBC ones are impossible to source, both are pinout compatible for this application;
 - A [4 gates bidirectionnal level shifters](https://fr.aliexpress.com/item/1005004560297038.html). Any similar one in another seller will do the job.
 - The [custom PCB](/PCB_RP2040_Zero), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
@@ -78,3 +82,5 @@ For full support with the **pico-gb-printer**, you have to recompile the code to
 
 **Sidenote:**
 This board id also partly compatible with the Arduino based projects if you compile them with the [Earle Philhower RP2040 core](https://github.com/earlephilhower/arduino-pico) installed on Arduino IDE. Just route LED to pin D8 instead of D13 and GBP_SO_PIN to D0 instead of D4. However, the serial output format is not exactly the same (not sure why, apparently just a CR+LF issue) and the code probably needs a bit of rewrite to be directly compatible with the various image decoders. Anyway, I won't make any further attempt but it looks possible to use this board with other Game Boy Printer emulators without too much effort.
+
+The Waveshare RP2040 Zero is equipped with a fancy WS2812 as internal LED which is not driven here, sadly. It's up to you to code a basic controller for it.
