@@ -7,7 +7,7 @@ PCB designs can be edited with [EasyEDA Standard Edition](https://easyeda.com). 
 
 Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid additional prohibitive taxes with customs (taxes paid at order). I've never had any quality issue with them. Just drop the gerber to their site and order with default parameters (the cheapest by default). Considering that you yet have very basic soldering hardware (and skill), each populated PCB should cost you about 10€. You will save a multimeter too as it will work first try.
 
-You can modify and copy the source files or sell these PCBs bare or populated if you want. I'm not the kind of bum swarming into the retro community begging for pennies. Plagiarism will be my reward. 
+You can modify and copy the source files or sell these PCBs bare or populated if you want, I don't care. 
 
 ![](/All_PCBs.jpg)
 (yes, it is very fancy in blue)
