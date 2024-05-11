@@ -9,6 +9,8 @@ Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid 
 
 You can modify and copy the source files or sell these PCBs bare or populated as long as you respect the license terms (in brief, cite me). 
 
+The PCBs proposed here are fully compatible the [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/product/pixel-gameboy-printer/) which is basically the [original Arduino emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator) wrapped into the Retrospy software suite. The only difference is the 3D printed shell. RetroSpy Pixel Viewer and Retrospy firmware work like a charm with the boards proposed here.
+
 ![](/All_PCBs.jpg)
 (yes, it is very fancy in blue)
 
@@ -19,6 +21,7 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 - [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
 - [The Arduino SD Game Boy Printer](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer)
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
+- [The Retrospy Pixel Game Boy Printer Emulator](https://github.com/retrospy/RetroSpy)
 
 ![](PCB_Arduino_Uno/PCB.png)
 
@@ -44,6 +47,7 @@ Arduino Nano compatible PCB to connect cleanly different projects around the Gam
 - [The GBCamera Android Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
 - [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
+- [The Retrospy Pixel Game Boy Printer Emulator](https://github.com/retrospy/RetroSpy)
 
 I must admit that the Arduino Nano is particularly fancy as Game Boy Printer emulator device (cute and flashy as I like). The device works without the LED and resistor.
 
