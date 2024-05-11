@@ -9,7 +9,7 @@ Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid 
 
 You can modify and copy the source files or sell these PCBs bare or populated as long as you respect the license terms (in brief, cite me). 
 
-The PCBs proposed here are fully compatible the [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/product/pixel-gameboy-printer/) which is basically the [original Arduino emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator) wrapped into the Retrospy software suite. The only difference is the 3D printed shell. RetroSpy Pixel Viewer and Retrospy firmware work like a charm with the boards proposed here.
+The PCBs proposed here are fully compatible with the [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/product/pixel-gameboy-printer/) which is basically the [original Arduino emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator) wrapped into the Retrospy software suite. The only difference is the 3D printed shell. RetroSpy Pixel Viewer and Retrospy firmware work like a charm with the boards proposed here.
 
 ![](/All_PCBs.jpg)
 (yes, it is very fancy in blue)
