@@ -9,7 +9,7 @@ Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid 
 
 You can modify and copy the source files or sell these PCBs bare or populated as long as you respect the license terms (in brief, cite me). 
 
-Want to make a [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/product/pixel-gameboy-printer/) for cheap ? The device is basically some unspecified Arduino pre-flashed with an obfuscated version of the [original Arduino emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator) and hidden in a 3D printed shell. Do not loose time following these [confusing building instructions](https://retro-spy.com/wiki/gameboy-printer-emulation-on-arduino-getting-started/), just make your own with the PCB here, flash it with the original emulator and it works perfectly with the Retrospy Pixel Viewer (tested and validated) !
+Want to make a [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/product/pixel-gameboy-printer/) for cheap ? The device is basically some unspecified Arduino pre-flashed with an obfuscated version of the [original Arduino emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator) and hidden in a 3D printed shell. Do not loose time following these [confusing building instructions](https://retro-spy.com/wiki/gameboy-printer-emulation-on-arduino-getting-started/), just make your own with the PCB here, flash it with the original emulator and it works perfectly with the Retrospy Pixel Viewer (which is a quite average image decoder but that's another story).
 
 ![](/All_PCBs.jpg)
 (yes, it is very fancy in blue)
