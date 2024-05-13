@@ -9,7 +9,7 @@ Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid 
 
 You can modify and copy the source files or sell these PCBs bare or populated as long as you respect the license terms (in brief, cite me). 
 
-Want to make a [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/product/pixel-gameboy-printer/) for free ? The product, as sold, is basically the original [Arduino Game Boy Printer emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator) hidden in a 3D printed shell, same pinout, same LED, same exact firmware. No need to buy anything else - you've already got one !
+Want to get a [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/product/pixel-gameboy-printer/) for free ? The product, as sold, is basically the original [Arduino Game Boy Printer emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator) hidden in a 3D printed shell, same pinout, same LED, same firmware. No need to buy anything else, it's the exact same device that you will get here.
 
 ![](/All_PCBs.jpg)
 (yes, it is very fancy in blue)
