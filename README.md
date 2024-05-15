@@ -67,6 +67,7 @@ It is advised to trim the pins as short as possible on the back side in order to
 ## Game Boy Printer Emulator PCB for the Waveshare RP2040 Zero
 RP2040 compatible PCB to connect cleanly:
 - [the Pico GB Printer](https://github.com/untoxa/pico-gb-printer)
+- [the Pico GB Web Camera](https://github.com/untoxa/pico-gb-webcamera)
 - All the GB printer Arduino projects (see the sidenote for pinout)
 
 ![](PCB_RP2040_Zero/PCB.png)
