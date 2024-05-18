@@ -11,7 +11,7 @@ You can modify and copy the source files or sell these PCBs bare or populated as
 
 Want to buy a [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/product/pixel-gameboy-printer/) ? The product as you will get it from Retrospy is just a plain [Arduino Game Boy Printer emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator) enclosed in a 3D printed shell. It has the same pinout and the exact same hardware/firmware as the original project. The PCB proposed here were tested with Retrospy softwares and are 100% compatible, for much cheaper.
 
-![](/All_PCBs.jpg)
+![game boy printer emulator](/All_PCBs.jpg)
 (yes, it is very fancy in blue)
 
 ## Game Boy Printer Emulator PCB for the Arduino Uno
@@ -23,7 +23,7 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
 - [The Retrospy Pixel Game Boy Printer Emulator](https://github.com/retrospy/RetroSpy)
 
-![](PCB_Arduino_Uno/PCB.png)
+![game boy printer emulator](PCB_Arduino_Uno/PCB.png)
 
 **Parts needed:** 
 - An [Arduino Uno](https://fr.aliexpress.com/item/1005006088733150.html), the cheaper the better;
@@ -34,10 +34,10 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 - A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness). The device works without the LED and resistor (but is is less cool).
 
 ### For Game Boy Printer emulator and and PC to printer direct interface, without SD shield adapter
-![](/PCB_Arduino_Uno/Arduino_shield.jpg)
+![game boy printer emulator](/PCB_Arduino_Uno/Arduino_shield.jpg)
 
 ### For SD printer, with micro SD shield adapter
-![](/PCB_Arduino_Uno/Arduino_Shield_with_SD.jpg)
+![game boy printer emulator](/PCB_Arduino_Uno/Arduino_Shield_with_SD.jpg)
 
 If you use [SD card based project](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer), LED will flash when SD card is accessed as it is connected to CLK. For non SD based projects, just left the SD stuff unpopulated. The "Analog in" rows of pins can also be let without pin header if you want to spare some, it is never used here. The Arduino Uno is overall the most reliable device for playing with the Game Boy/Game Boy Printer.
 
@@ -51,7 +51,7 @@ Arduino Nano compatible PCB to connect cleanly different projects around the Gam
 
 I must admit that the Arduino Nano is particularly fancy as Game Boy Printer emulator device (cute and flashy as I like). The device works without the LED and resistor.
 
-![](PCB_Arduino_Nano/PCB.png)
+![game boy printer emulator](PCB_Arduino_Nano/PCB.png)
 
 **Parts needed:** 
 - An [Arduino Nano](https://fr.aliexpress.com/item/1005006053215107.html), the cheaper the better;
@@ -62,7 +62,7 @@ I must admit that the Arduino Nano is particularly fancy as Game Boy Printer emu
 
 It is advised to trim the pins as short as possible on the back side in order to get a clean finish.
 
-![](PCB_Arduino_Nano/Nano_shield.jpg)
+![game boy printer emulator](PCB_Arduino_Nano/Nano_shield.jpg)
 
 ## Game Boy Printer Emulator PCB for the Waveshare RP2040 Zero
 RP2040 compatible PCB to connect cleanly:
@@ -70,7 +70,7 @@ RP2040 compatible PCB to connect cleanly:
 - [The Pico GB Web Camera](https://github.com/untoxa/pico-gb-webcamera)
 - All the GB printer Arduino projects (see the sidenote for pinout)
 
-![](PCB_RP2040_Zero/PCB.png)
+![game boy printer emulator](PCB_RP2040_Zero/PCB.png)
 
 **Parts needed:** 
 - An [Waveshare RP2040 Zero (or copy)](https://fr.aliexpress.com/item/1005003504006451.html), **with pin header** (or add some);
@@ -84,7 +84,7 @@ It is advised to trim the pins as short as possible on the back side in order to
 
 For full support with the **pico-gb-printer**, you have to recompile the code to activate the external LED and the "paper tearing" functions. LED is indeed routed by default to GPIO25 which is the internal one (if any...) and "paper tearing" is routed by default to GPIO23 which is not reachable on a regular board. The device works anyway with the default build, tearing paper button and LED are just optional (and installing the Pico SDK was a real hassle on my side so just dropping the .uf2 and play with it is an option to consider seriously).
 
-![](/PCB_RP2040_Zero/Pi_Zero_shield.jpg)
+![game boy printer emulator](/PCB_RP2040_Zero/Pi_Zero_shield.jpg)
 
 **Sidenote:**
 This board is also compatible with the Arduino based projects if you compile them with the [Earle Philhower RP2040 core](https://github.com/earlephilhower/arduino-pico) installed on Arduino IDE. Just route [LED_STATUS_PIN to pin 8 instead of 13](https://github.com/mofosyne/arduino-gameboy-printer-emulator/blob/30b91fd60cae8a97a446764cba289b109bcb47d4/GameBoyPrinterEmulator/GameBoyPrinterEmulator.ino#L88) and [GBP_SO_PIN to 0 instead of 4](https://github.com/mofosyne/arduino-gameboy-printer-emulator/blob/30b91fd60cae8a97a446764cba289b109bcb47d4/GameBoyPrinterEmulator/GameBoyPrinterEmulator.ino#L83). Due to the way the Pico hard resets the serial connection contrary to the Arduino in case of reboot, some automated parsers may have compatibility issues but it overall works using Putty for example.
