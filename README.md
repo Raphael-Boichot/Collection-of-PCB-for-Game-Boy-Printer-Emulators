@@ -82,7 +82,7 @@ RP2040 compatible PCB to connect cleanly:
 
 It is advised to trim the pins as short as possible on the back side in order to get a clean finish.
 
-For full support with the **pico-gb-printer**, you have to recompile the code to route the external LED to GPIO8 and the "paper tearing" to GPIO9. LED is indeed routed by default to GPIO25 which is the internal one (if any...) and "paper tearing" is routed by default to GPIO23 which is not reachable on a regular board. The device works anyway with the default build, tearing paper button and LED are just optional (and installing the Pico SDK was a real hassle on my side so just dropping the .uf2 and play with it is an option to consider seriously).
+For full support with the **pico-gb-printer**, you have to recompile the code to route the external LED to GPIO8 and the "paper tearing" to GPIO9 (code is [situated there](https://github.com/untoxa/pico-gb-printer/blob/main/include/globals.h#L8)). LED is indeed routed by default to GPIO25 which is the internal one (if any...) and "paper tearing" is routed by default to GPIO23 which is not reachable on a regular board. The device works anyway with the default build, tearing paper button and LED are just optional (and installing the Pico SDK was a real hassle on my side so just dropping the .uf2 and play with it is an option to consider seriously).
 
 ![game boy printer emulator](/PCB_RP2040_Zero/Pi_Zero_shield.jpg)
 
