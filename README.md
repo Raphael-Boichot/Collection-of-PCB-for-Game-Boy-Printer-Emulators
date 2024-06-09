@@ -91,4 +91,4 @@ This board is also compatible with the Arduino based projects if you compile the
 
 The Waveshare RP2040 Zero is also equipped with a fancy WS2812 as internal LED which is not driven in the projects linked here, sadly. It's up to you to code a basic controller for it (like in the picture above).
 
-I won't provide any design compatible with the Stackmashing's USB to GB Link Cable Adapter as there are some yet on Github.
+I won't provide any design compatible with the Stackmashing's USB to GB Link Cable Adapter as [there are some on Github](https://github.com/agtbaskara/game-boy-pico-link-board). Do not ask me why the Pico GB printer and the Stackmashing's board are not compatble (they do not use the same pinout while being similar in function).
