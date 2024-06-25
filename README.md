@@ -14,6 +14,29 @@ Want to buy a [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/pr
 ![game boy printer emulator](/All_PCBs.jpg)
 (yes, it is very fancy in blue)
 
+## Game Boy Printer Emulator PCB for the Arduino Nano
+Arduino Nano compatible PCB to connect cleanly different projects around the Game Boy Printer: 
+- [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
+- [The GBCamera Android Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
+- [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
+- [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
+- [The Retrospy Pixel Game Boy Printer Emulator](https://github.com/retrospy/RetroSpy)
+
+I must admit that the Arduino Nano is particularly fancy as Game Boy Printer emulator device (cute and flashy as I like). The device works without the LED and resistor.
+
+![game boy printer emulator](PCB_Arduino_Nano/PCB.png)
+
+**Parts needed:** 
+- An [Arduino Nano](https://fr.aliexpress.com/item/1005006053215107.html), the cheaper the better;
+- Some [GBA/GBC serial sockets](https://fr.aliexpress.com/item/1005006358075502.html). Spare GBA link plugs are common while GB/GBC ones are impossible to source, both are pinout compatible for this application;
+- Some [regular male pin headers](https://fr.aliexpress.com/item/1005002577212594.html);
+- The [custom PCB](/PCB_Arduino_Nano), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
+- A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness).
+
+It is advised to trim the pins as short as possible on the back side in order to get a clean finish.
+
+![game boy printer emulator](PCB_Arduino_Nano/Nano_shield.jpg)
+
 ## Game Boy Printer Emulator PCB for the Arduino Uno
 Arduino Uno compatible PCB to connect cleanly different projects around the Game Boy Printer: 
 - [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
@@ -40,29 +63,6 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 ![game boy printer emulator](/PCB_Arduino_Uno/Arduino_Shield_with_SD.jpg)
 
 If you use [SD card based project](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer), LED will flash when SD card is accessed as it is connected to CLK. For non SD based projects, just left the SD stuff unpopulated. The "Analog in" rows of pins can also be let without pin header if you want to spare some, it is never used here. The Arduino Uno is overall the most reliable device for playing with the Game Boy/Game Boy Printer.
-
-## Game Boy Printer Emulator PCB for the Arduino Nano
-Arduino Nano compatible PCB to connect cleanly different projects around the Game Boy Printer: 
-- [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
-- [The GBCamera Android Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
-- [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
-- [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
-- [The Retrospy Pixel Game Boy Printer Emulator](https://github.com/retrospy/RetroSpy)
-
-I must admit that the Arduino Nano is particularly fancy as Game Boy Printer emulator device (cute and flashy as I like). The device works without the LED and resistor.
-
-![game boy printer emulator](PCB_Arduino_Nano/PCB.png)
-
-**Parts needed:** 
-- An [Arduino Nano](https://fr.aliexpress.com/item/1005006053215107.html), the cheaper the better;
-- Some [GBA/GBC serial sockets](https://fr.aliexpress.com/item/1005006358075502.html). Spare GBA link plugs are common while GB/GBC ones are impossible to source, both are pinout compatible for this application;
-- Some [regular male pin headers](https://fr.aliexpress.com/item/1005002577212594.html);
-- The [custom PCB](/PCB_Arduino_Nano), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
-- A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness).
-
-It is advised to trim the pins as short as possible on the back side in order to get a clean finish.
-
-![game boy printer emulator](PCB_Arduino_Nano/Nano_shield.jpg)
 
 ## Game Boy Printer Emulator PCB for the Waveshare RP2040 Zero
 RP2040 compatible PCB to connect cleanly:
