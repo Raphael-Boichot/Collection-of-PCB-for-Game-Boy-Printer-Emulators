@@ -13,6 +13,7 @@ Want to buy a [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/pr
 
 **Last but not least: some Aliexpress sellers ship Arduinos dead from the beginning (they flashes like if the bootloader was not installed but any attempt to update it or flash the board will fail), so better test them before soldering anything.** You can flash the bare board with the printer emulator, it must at least return the welcome message on the serial console.
 
+## It looks like this
 ![game boy printer emulator](/All_PCBs.jpg)
 (yes, it is very fancy in blue)
 
