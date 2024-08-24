@@ -10,9 +10,9 @@ Eu citizens are advised to order PCBs at [JLCPCB](https://jlcpcb.com/) to avoid 
 
 You can modify and copy the source files or sell these PCBs bare or populated as long as you respect the license terms (in brief, cite [Raphaël BOICHOT](https://github.com/Raphael-Boichot) and [Brian KHUU](https://github.com/mofosyne)). 
 
-Want to buy a [Retrospy Pixel GameBoy Printer Emulator](https://retro-spy.com/product/pixel-gameboy-printer/) ? The product as sold is just the **exact [Arduino Printer emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)** flashed on Arduino Nano and hidden in a 3D printed shell, with the **exact same pinout** (because yes, the license allows it as long as the author is cited, which nevertheless required a gentle reminder to the seller...). The PCBs proposed here are totally compatible for a fraction of the proposed price.
+Want to buy a [Retrospy Pixel](https://retro-spy.com/product/pixel-gameboy-printer/) Game Boy Printer emulator ? The product as sold is just the **exact [Arduino Printer emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)** flashed on Arduino Nano and hidden in a 3D printed shell, with the **exact same pinout** (because yes, the license allows it as long as the author is cited, which nevertheless required a gentle reminder to the seller...). The PCBs proposed here are totally compatible for a fraction of the proposed price.
 
-**Last but not least: some Aliexpress sellers ship defective Arduino nanos ("L" led flashes rapidely like if the bootloader was not installed but any attempt to update it with another Arduino or flash the board will fail), so better test them before soldering anything.** You can flash the bare board with the printer emulator, it must at least flash briefly and return the welcome message on the serial console.
+**Last but not least: some Aliexpress sellers ship Arduino nanos defective out of the bag** ("L" led flashes rapidely like if the bootloader was not installed but any attempt to update it with another Arduino or flash the board will fail), so **better test them before soldering anything**. You can flash the bare board with the printer emulator, it must at least flash briefly and return the welcome message on the serial console.
 
 ## It looks like this
 ![game boy printer emulator](/All_PCBs.jpg)
