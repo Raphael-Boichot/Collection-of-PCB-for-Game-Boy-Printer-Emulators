@@ -16,7 +16,7 @@ Want to buy a [Retrospy Pixel](https://retro-spy.com/product/pixel-gameboy-print
 
 ## It looks like this
 ![game boy printer emulator](/All_PCBs.jpg)
-(yes, it is very fancy in blue)
+(yes, it is very fancy in blue but the green had faster shipping options)
 
 ## Game Boy Printer Emulator PCB for the Arduino Nano
 Arduino Nano compatible PCB to connect cleanly different projects around the Game Boy Printer: 
