@@ -3,6 +3,8 @@
 ## Why ?
 Because 99.9% of the non success when building a Game Boy Printer emulator based on Arduino or Pi Pico is just inversion between SIN and SOUT, because cutting original cables is a shame, because cutting Aliexpress cables anyway requires a multimeter as you cannot trust any wire color (and ends as more or less janky designs depending on your soldering skill), here are PCBs cheap and easy to populate that avoid all these hassles.
 
+Sidenote: if you wish to build a fully standalone emulator (without need for a decoder or a PC / phone), you can also take a look at the [TinyGB Printer](https://github.com/Raphael-Boichot/The-TinyGB-Printer) (RP2040 based) and the [NeoGB Printer](https://github.com/zenaro147/NeoGB-Printer) (ESP32 based).
+
 ## How ?
 PCB designs can be edited with [EasyEDA Standard Edition](https://easyeda.com). Schematics follows the associated projects, so refer to them and to the PCB source files to get the pinout. All these boards must be used with a **GB/GBC compatible link cable**. **GBA only (purple cables) are not pinout compatible** with the proposed socket (even if they fit as the only sockets available online in 2024 are the GBA compatible version). These boards have been tested IRL with GB/GBA/GBC/GB Boy Colour (as long as the cable is GB/GBC compatible).
 
