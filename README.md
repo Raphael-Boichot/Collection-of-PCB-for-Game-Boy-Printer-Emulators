@@ -55,12 +55,12 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 ![game boy printer emulator](PCB_Arduino_Uno/PCB.png)
 
 **Parts needed:** 
-- An [Arduino Uno](https://fr.aliexpress.com/item/1005006088733150.html), the cheaper the better;
-- A [generic microSD shield](https://fr.aliexpress.com/item/1005006059963950.html) if needed, check the pinout to match with PCB;
-- Some [GBA/GBC serial sockets](https://fr.aliexpress.com/item/1005006358075502.html). Spare GBA link plugs are common while GB/GBC ones are impossible to source, both are pinout compatible for this application;
-- Some [male pin headers](https://fr.aliexpress.com/item/1005006104110168.html). The clearance with the Arduino Uno shield is tight, but by triming pins below the PCB regular 11 mm pin headers are OK;
+- An [Arduino Uno](https://www.aliexpress.com/item/1005006088733150.html), the cheaper the better;
+- A [generic microSD shield](https://www.aliexpress.com/item/1005006059963950.html) if needed, check the pinout to match with PCB;
+- Some [GBA/GBC serial sockets](https://www.aliexpress.com/item/1005006358075502.html). Spare GBA link plugs are common while GB/GBC ones are impossible to source, both are pinout compatible for this application;
+- Some [male pin headers](https://www.aliexpress.com/item/1005006104110168.html). The clearance with the Arduino Uno shield is tight, but by triming pins below the PCB regular 11 mm pin headers are OK;
 - The [custom PCB](/PCB_Arduino_Uno), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
-- A [regular 5 mm LEDs](https://fr.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness). The device works without the LED and resistor (but is is less cool).
+- A [regular 5 mm LEDs](https://www.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://fr.aliexpress.com/item/32866216363.html) of about 220 Ohms (low value = high brighness). The device works without the LED and resistor (but is is less cool).
 
 ### For Game Boy Printer emulator and and PC to printer direct interface, without SD shield adapter
 ![game boy printer emulator](/PCB_Arduino_Uno/Arduino_shield.jpg)
