@@ -33,7 +33,7 @@ I must admit that the Arduino Nano is particularly fancy as Game Boy Printer emu
 ![game boy printer emulator](PCB_Arduino_Nano/PCB.png)
 
 **Parts needed:** 
-- An [Arduino Nano]([https://](https://www.aliexpress.com/item/1005006053215107.html), the cheaper the better;
+- An [Arduino Nano](https://www.aliexpress.com/item/1005006053215107.html), the cheaper the better;
 - Some [GBA/GBC serial sockets](https://www.aliexpress.com/item/1005006358075502.html). Spare GBA link plugs are common while GB/GBC ones are impossible to source, both are pinout compatible for this application;
 - Some [regular male pin headers](https://www.aliexpress.com/item/1005002577212594.html);
 - The [custom PCB](/PCB_Arduino_Nano), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
