@@ -48,6 +48,7 @@ Arduino Uno compatible PCB to connect cleanly different projects around the Game
 - [The original Game Boy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator)
 - [The GBCamera Android Manager](https://github.com/Mraulio/GBCamera-Android-Manager)
 - [The direct PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface)
+- [Yet another PC to Game Boy Printer interface](https://github.com/Raphael-Boichot/Yet-another-PC-to-Game-Boy-Printer-interface)
 - [The Arduino SD Game Boy Printer](https://github.com/Raphael-Boichot/The-Arduino-SD-Game-Boy-Printer)
 - [The Game Boy Printer paper simulator](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation)
 - [The Retrospy Pixel Game Boy Printer Emulator](https://github.com/retrospy/RetroSpy)
