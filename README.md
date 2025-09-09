@@ -107,7 +107,8 @@ I won't provide any PCB compatible with the Stackmashing's USB to GB Link Cable 
 RP2040 compatible PCB to connect cleanly:
 - [The Pico GB Printer](https://github.com/untoxa/pico-gb-printer)
 - [The Pico GB Web Camera](https://github.com/untoxa/pico-gb-webcamera)
-- All the GB printer Arduino projects (see the sidenote for pinout)
+
+**This board is self-powered by the link cable, BUT it requires a third party serial cable to work in pure remote mode (not connected to the USB). Genuine cables do not use +5V (VDD) required for this device to work.**
 
 ![game boy printer emulator](PCB_RP2040_Zero_remote/PCB.png)
 
