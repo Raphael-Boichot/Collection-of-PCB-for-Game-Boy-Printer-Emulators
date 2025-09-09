@@ -100,3 +100,27 @@ This board is also compatible with the Arduino based projects if you compile the
 The Waveshare RP2040 Zero is also equipped with a fancy WS2812 as internal LED which is not driven in the projects linked here, sadly. It's up to you to code a basic controller for it (like in the picture above).
 
 I won't provide any PCB compatible with the Stackmashing's USB to GB Link Cable Adapter as [there are some on Github](https://github.com/agtbaskara/game-boy-pico-link-board) and you can always recompile the codes if needed (good luck !). The Pico GB printer and the Stackmashing's board are not directly compatible (they do not share the same pinout while being **totally similar** in function) for historical reasons.
+
+## Game Boy Printer Emulator PCB for the Waveshare RP2040 Zero + Remote control for [Photo!](https://github.com/untoxa/gb-photo)
+[!WARNING]  **PCB NOT YET VALIDATED, USE AT YOUR OWN RISKS**
+
+RP2040 compatible PCB to connect cleanly:
+- [The Pico GB Printer](https://github.com/untoxa/pico-gb-printer)
+- [The Pico GB Web Camera](https://github.com/untoxa/pico-gb-webcamera)
+- All the GB printer Arduino projects (see the sidenote for pinout)
+
+![game boy printer emulator](PCB_RP2040_Zero_remote/PCB.png)
+
+**Parts needed:** 
+- An [Waveshare RP2040 Zero (or copy)](https://www.aliexpress.com/item/1005003504006451.html), **with pin header** (or add some);
+- Some [GBA/GBC serial sockets](https://www.aliexpress.com/item/1005006358075502.html). Spare GBA link plugs are common while GB/GBC ones are impossible to source, both are pinout compatible for this application;
+- A [4 gates bidirectionnal level shifters](https://www.aliexpress.com/item/1005004560297038.html). Any similar one in another seller will do the job.
+- The [custom PCB](/PCB_RP2040_Zero_remote), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
+- A [regular 5 mm LEDs](https://www.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://www.aliexpress.com/item/32866216363.html) of about 100 Ohms (low value = high brighness).
+- A through hole low voltage Shottky diode like BYV1040 (tested), a 1N5817 or a BAT41. Any equivalent will do the kob too.
+- eight [6x6 push button](https://www.aliexpress.com/item/1005003938244847.html)  whatever height, that can be harvested on any dead electronic suff so it is common.
+
+It is advised to trim the pins as short as possible on the back side in order to get a clean finish.
+
+![game boy printer emulator](PCB_RP2040_Zero_remote/PCB_RP2040_remote_populated.jpg)
+
