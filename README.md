@@ -117,8 +117,9 @@ RP2040 compatible PCB to connect cleanly:
 - A [4 gates bidirectionnal level shifters](https://www.aliexpress.com/item/1005004560297038.html). Any similar one in another seller will do the job.
 - The [custom PCB](/PCB_RP2040_Zero_remote), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
 - A [regular 5 mm LEDs](https://www.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://www.aliexpress.com/item/32866216363.html) of about 100 Ohms (low value = high brighness).
-- A through hole low voltage Shottky diode like BYV1040 (tested), a 1N5817 or a BAT41. Any equivalent will do the kob too.
 - 8 [6x6 push button](https://www.aliexpress.com/item/1005003938244847.html)  whatever height, that can be harvested on any dead electronic suff so it is common.
+- A through hole low voltage Shottky diode like BYV1040 (tested), a 1N5817 or a BAT41. Any equivalent will do the kob too.
+- A third-party link cable. Remind that tolerances can be approximative with these cables and expect a flimsy attachement in any case. But they work.
 
 It is advised to trim the pins as short as possible on the back side in order to get a clean finish.
 
