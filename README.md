@@ -99,11 +99,10 @@ This board is also compatible with the Arduino based projects if you compile the
 
 The Waveshare RP2040 Zero is also equipped with a fancy WS2812 as internal LED which is not driven in the projects linked here, sadly. It's up to you to code a basic controller for it (like in the picture above).
 
-I won't provide any PCB compatible with the Stackmashing's USB to GB Link Cable Adapter as [there are some on Github](https://github.com/agtbaskara/game-boy-pico-link-board) and you can always recompile the codes if needed (good luck !). The Pico GB printer and the Stackmashing's board are not directly compatible (they do not share the same pinout while being **totally similar** in function) for historical reasons.
+I won't provide any PCB compatible with the Stackmashing's USB to GB Link Cable Adapter (a similar project) as [there are some on Github](https://github.com/agtbaskara/game-boy-pico-link-board). Pinout is different.
 
 ## Game Boy Printer Emulator PCB for the Waveshare RP2040 Zero + Remote control for [Photo!](https://github.com/untoxa/gb-photo)
-[!WARNING]  
-**PCB NOT YET VALIDATED, USE AT YOUR OWN RISKS**
+## PCB NOT YET VALIDATED, USE AT YOUR OWN RISKS
 
 RP2040 compatible PCB to connect cleanly:
 - [The Pico GB Printer](https://github.com/untoxa/pico-gb-printer)
