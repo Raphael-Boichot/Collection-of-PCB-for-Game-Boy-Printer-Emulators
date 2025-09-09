@@ -118,7 +118,7 @@ RP2040 compatible PCB to connect cleanly:
 - The [custom PCB](/PCB_RP2040_Zero_remote), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
 - A [regular 5 mm LEDs](https://www.aliexpress.com/item/32848810276.html) and a [through hole resistor](https://www.aliexpress.com/item/32866216363.html) of about 100 Ohms (low value = high brighness).
 - 8 [6x6 push button](https://www.aliexpress.com/item/1005003938244847.html)  whatever height, that can be harvested on any dead electronic suff so it is common.
-- A through hole low voltage Shottky diode like BYV1040 (tested), a 1N5817 or a BAT41. Any equivalent will do the kob too.
+- A through hole low voltage Shottky diode like [BYV1040](https://aliexpress.com/i/1005006678077297.html) (tested), a [1N5817](https://aliexpress.com/item/1005002250880544.html) or a [BAT41](https://aliexpress.com/item/1005007606402816.html). Any equivalent Shottky diode (with forward voltage drop of about 0.2V @1mA, reverse voltage > 20V) will do the job too.
 - A third-party link cable. Remind that tolerances can be approximative with these cables and expect a flimsy attachement in any case. But they work.
 
 It is advised to trim the pins as short as possible on the back side in order to get a clean finish.
