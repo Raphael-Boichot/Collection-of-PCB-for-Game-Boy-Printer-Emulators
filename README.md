@@ -107,12 +107,12 @@ RP2040 compatible PCB to connect cleanly:
 - [The Pico GB Printer](https://github.com/untoxa/pico-gb-printer)
 - [The Pico GB Web Camera](https://github.com/untoxa/pico-gb-webcamera)
 
-**This board is self-powered by the link cable, BUT it requires a third party serial cable to work in pure remote mode (not connected to the USB). Genuine cables do not use +5V (VDD) required for this device to work.**
+**This board can be self-powered by the link cable, BUT it requires a third party serial cable to work in pure remote mode (not connected to the USB). Genuine cables do not connect the +5V (VDD) required for this device to work autonomously.**
 
 ![game boy printer emulator](PCB_RP2040_Zero_remote/PCB.png)
 
 **Parts needed:** 
-- An [Waveshare RP2040 Zero (or copy)](https://www.aliexpress.com/item/1005003504006451.html), **with pin header** (or add some);
+- A [Waveshare RP2040 Zero (or copy)](https://www.aliexpress.com/item/1005003504006451.html), **with pin header** (or add some);
 - Some [GBA/GBC serial sockets](https://www.aliexpress.com/item/1005006358075502.html). Spare GBA link plugs are common while GB/GBC ones are impossible to source, both are pinout compatible for this application;
 - A [4 gates bidirectionnal level shifters](https://www.aliexpress.com/item/1005004560297038.html). Any similar one in another seller will do the job.
 - The [custom PCB](/PCB_RP2040_Zero_remote), any thickness, any finish, any color. Order at [JLCPCB](https://jlcpcb.com/);
